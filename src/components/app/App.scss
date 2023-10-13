@@ -1,0 +1,35 @@
+.app-contianer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Neocyr', serif, monospace;
+    padding: 1rem;
+    box-shadow: 0rem 0.5rem 0.5rem #bfbfbd;
+    .title-wrapper {
+        display: inherit;
+        h2 {
+            display: inherit;
+            font-weight: 700;
+            margin: 0;
+        }
+    }
+    .btn-wrapper {
+        display: inherit;
+        font-family: inherit;
+        gap: 1rem;
+        .app-btn {
+            font-family: inherit;
+            font-weight: 500;
+            text-transform: uppercase;
+            background-color: #ffc40c;
+            color: #000000;
+            border-radius: 5px;
+        }
+        .btn-sign-in {
+
+        }
+        .btn-sign-up {
+
+        }
+    }
+}
