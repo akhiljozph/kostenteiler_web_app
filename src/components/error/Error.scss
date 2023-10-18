@@ -6,6 +6,9 @@
     min-height: 100vh;
     min-width: 100vw;
     gap: 0.5rem;
+    background-image: url(../../assets/not-found.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
     .error-message {
         font-weight: 700;
         font-size: 24px;
@@ -24,5 +27,6 @@
         border-radius: 5px;
         padding: 0.5rem;
         margin-top: 1rem;
+        cursor: pointer;
     }
 }
