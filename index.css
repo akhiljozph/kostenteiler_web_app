@@ -1,9 +1,5 @@
 html,
 body {
     margin: 0;
-}
-
-#root {
-    $primary-background-color: #ffc40c;
-    $primary-foreground-color: #000000;
+    font-family: Neocyr, serif;
 }

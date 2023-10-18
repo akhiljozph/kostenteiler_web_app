@@ -1,0 +1,28 @@
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    gap: 0.5rem;
+    .error-message {
+        font-weight: 700;
+        font-size: 24px;
+        margin: 0;
+    }
+    .error-subscript {
+        margin: 0;
+        color: #0c65ff;
+    }
+    .btn-back {
+        font-family: inherit;
+        font-weight: 500;
+        text-transform: uppercase;
+        background-color: #ffc40c;
+        color: #000000;
+        border-radius: 5px;
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+}
