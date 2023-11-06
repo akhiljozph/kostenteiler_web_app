@@ -1,0 +1,9 @@
+@import '../../assets/styles/style-mixins.scss';
+
+.kostlr-wrapper {
+    @include align-justify;
+
+    button {
+        @include kostlr-primary-btn;
+    }
+}

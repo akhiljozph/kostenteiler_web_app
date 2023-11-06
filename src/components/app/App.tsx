@@ -1,10 +1,17 @@
-import './App.css';
+import { Link, Outlet } from 'react-router-dom';
+import './App.scss';
 
 function App() {
 
   return (
-    <div>
-      <p>It works!</p>
+    <div className='kostlr-wrapper'>
+      <button>
+        <Link to={'/login'}>Login</Link>
+      </button>
+      <button>
+        <Link to={'/registration'}>Registration</Link>
+      </button>
+      <Outlet />
     </div>
   )
 }

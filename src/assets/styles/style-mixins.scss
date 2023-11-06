@@ -1,0 +1,20 @@
+@mixin flex {
+    display: flex;
+}
+
+@mixin align-justify {
+    @include flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin kostlr-primary-btn {
+    padding: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: unset;
+    a {
+        font-style: unset;
+        text-decoration: none;
+    }
+}
