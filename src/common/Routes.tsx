@@ -8,19 +8,15 @@ import Registration from '../components/registration/registration.tsx';
 const routes = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
-        children: [
-            {
-                index: true,
-                path: "login",
-                element: <Login />
-            },
-            {
-                index: true,
-                path: "registration",
-                element: <Registration />
-            }
-        ]
+        element: <App />
+    }, {
+        index: true,
+        path: "login",
+        element: <Login />
+    }, {
+        index: true,
+        path: "registration",
+        element: <Registration />
     }, {
         path: "*",
         element: <Error />

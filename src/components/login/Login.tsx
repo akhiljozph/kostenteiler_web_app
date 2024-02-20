@@ -1,7 +1,14 @@
 function Login() {
+
+    const loginWrapper = {
+        'backgroundColor': '#b8b8b8',
+        'height': '100vh',
+        'width': '100vw'
+    }
     return (
-        <div>
-            Login works!
+        <div
+            style={loginWrapper}
+        >
         </div>
     )
 }
