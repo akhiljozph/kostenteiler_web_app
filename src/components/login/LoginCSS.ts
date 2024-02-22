@@ -18,3 +18,7 @@ export const loginBoxWrapper = {
     'border': 'solid 0.036rem #000',
     'border-radius': '1rem',
 }
+
+export const h1Title = {
+    'text-transformation': 'capitalize'
+}
