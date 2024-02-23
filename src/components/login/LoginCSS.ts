@@ -1,11 +1,7 @@
-export const flexAlignCenter = {
-    'display': 'flex',
-    'alignItems': 'center',
-    'justifyContent': 'center'
-}
+import { flexAlignJustifyCenter } from "../../common/styles/FlexBoxLayoutStyles";
 
 export const loginContainer = {
-    ...flexAlignCenter,
+    ...flexAlignJustifyCenter,
     'backgroundColor': '#eae9e9',
     'height': '100vh',
     'width': '100vw',
@@ -20,6 +16,6 @@ export const loginBoxWrapper = {
 }
 
 export const headingOneTitle = {
-    ...flexAlignCenter,
+    ...flexAlignJustifyCenter,
     'text-transform': 'capitalize',
 }
