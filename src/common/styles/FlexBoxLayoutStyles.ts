@@ -46,3 +46,38 @@ export const flexAlignJustifyEnd = {
     ...flexAlignEnd,
     ...flexJustifyEnd,
 }
+
+export const flexRow = {
+    ...flex,
+    'flexDirection': 'row',
+}
+
+export const flexRowReverse = {
+    ...flex,
+    'flexDirection': 'row-reverse',
+}
+
+export const flexColumn = {
+    ...flex,
+    'flexDirection': 'column',
+}
+
+export const flexColumnReverse = {
+    ...flex,
+    'flexReverse': 'column-reverse',
+}
+
+export const flexWrap = {
+    ...flex,
+    'flex-wrap': 'wrap',
+}
+
+export const flexNowrap = {
+    ...flex,
+    'flex-wrap': 'nowrap',
+}
+
+export const flexWrapReverse = {
+    ...flex,
+    'flex-wrap': 'wrap-reverse',
+}
