@@ -16,9 +16,10 @@ export const loginBoxWrapper = {
     'width': '29rem',
     'backgroundColor': '#ffffff',
     'border': 'solid 0.036rem #000',
-    'border-radius': '1rem',
+    'borderRadius': '1rem',
 }
 
-export const h1Title = {
-    'text-transformation': 'capitalize'
+export const headingOneTitle = {
+    ...flexAlignCenter,
+    'text-transform': 'capitalize',
 }
