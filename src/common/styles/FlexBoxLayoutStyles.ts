@@ -156,3 +156,38 @@ export const flexJustifySpaceEvenly = {
     ...flex,
     'justifyContent': 'space-evenly',
 };
+
+export const flexAlignContentStart = {
+    ...flex,
+    'alignContent': 'flex-start',
+};
+
+export const flexAlignContentEnd = {
+    ...flex,
+    'alignContent': 'flex-end',
+};
+
+export const flexAlignContentCenter = {
+    ...flex,
+    'alignContent': 'center',
+};
+
+export const flexAlignContentStretch = {
+    ...flex,
+    'alignContent': 'stretch',
+};
+
+export const flexAlignContentSpaceBetween = {
+    ...flex,
+    'alignContent': 'space-between',
+};
+
+export const flexAlignContentSpaceAround = {
+    ...flex,
+    'alignContent': 'space-around',
+};
+
+export const flexAlignContentSpaceEvenly = {
+    ...flex,
+    'alignContent': 'space-Evenly',
+};
