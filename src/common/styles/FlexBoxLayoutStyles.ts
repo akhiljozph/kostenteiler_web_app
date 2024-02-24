@@ -81,3 +81,63 @@ export const flexWrapReverse = {
     ...flex,
     'flex-wrap': 'wrap-reverse',
 }
+
+export const flexRowWrap = {
+    ...flexRow,
+    ...flexWrap,
+};
+
+export const flexRowNowrap = {
+    ...flexRow,
+    ...flexNowrap,
+};
+
+export const flexRowWrapReverse = {
+    ...flexRow,
+    ...flexWrapReverse
+};
+
+export const flexRowReverseWrap = {
+    ...flexRowReverse,
+    ...flexWrap,
+};
+
+export const flexRowReverseNowrap = {
+    ...flexRowReverse,
+    ...flexNowrap,
+};
+
+export const flexRowReverseWrapReverse = {
+    ...flexRowReverse,
+    ...flexWrapReverse
+};
+
+export const flexColumnWrap = {
+    ...flexColumn,
+    ...flexWrap,
+};
+
+export const flexColumnNowrap = {
+    ...flexColumn,
+    ...flexNowrap,
+};
+
+export const flexColumnWrapReverse = {
+    ...flexColumn,
+    ...flexWrapReverse
+};
+
+export const flexColumnReverseWrap = {
+    ...flexColumnReverse,
+    ...flexWrap,
+};
+
+export const flexColumnReverseNowrap = {
+    ...flexColumnReverse,
+    ...flexNowrap,
+};
+
+export const flexColumnReverseWrapReverse = {
+    ...flexColumnReverse,
+    ...flexWrapReverse
+};
