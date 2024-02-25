@@ -191,3 +191,8 @@ export const flexAlignContentSpaceEvenly = {
     ...flex,
     'alignContent': 'space-Evenly',
 };
+
+export const flexJustifyAlignContentStart = {
+    ...flexJustifyStart,
+    ...flexAlignContentStart,
+}
