@@ -1,4 +1,4 @@
-import { flexAlignJustifyCenter } from "../../common/styles/FlexBoxLayoutStyles";
+import { flexAlignJustifyCenter, flexDirectionAlignJustifyCenterColumn } from "../../common/styles/FlexBoxLayoutStyles";
 
 export const loginContainer = {
     ...flexAlignJustifyCenter,
@@ -8,6 +8,7 @@ export const loginContainer = {
 }
 
 export const loginBoxWrapper = {
+    ...flexDirectionAlignJustifyCenterColumn,
     'height': '44rem',
     'width': '29rem',
     'backgroundColor': '#ffffff',

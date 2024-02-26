@@ -67,6 +67,12 @@ export const flexColumnReverse = {
     'flexReverse': 'column-reverse',
 };
 
+export const flexDirectionAlignJustifyCenterColumn= {
+    ...flexAlignCenter,
+    ...flexJustifyCenter,
+    ...flexColumn,
+};
+
 export const flexWrap = {
     ...flex,
     'flex-wrap': 'wrap',
