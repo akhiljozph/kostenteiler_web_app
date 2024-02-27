@@ -20,3 +20,8 @@ export const headingOneTitle = {
     ...flexAlignJustifyCenter,
     'text-transform': 'capitalize',
 }
+
+export const loginLabel = {
+    'height': 'auto',
+    'text-transform': 'capitalize',
+}
