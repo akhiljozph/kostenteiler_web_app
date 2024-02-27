@@ -1,4 +1,4 @@
-import { headingOneTitle, loginBoxWrapper, loginContainer } from "./LoginCSS";
+import { headingOneTitle, loginBoxWrapper, loginContainer, loginLabel } from "./LoginCSS";
 
 function Login() {
 
@@ -7,11 +7,11 @@ function Login() {
             <div style={loginBoxWrapper}>
                 <h1 style={headingOneTitle}>login</h1>
                 <div>
-                    <label>Username</label>
+                    <label style={loginLabel}>username</label>
                     <input type="text" />
                 </div>
                 <div>
-                    <label>Password</label>
+                    <label style={loginLabel}>password</label>
                     <input type="password" />
                 </div>
                 <div>
