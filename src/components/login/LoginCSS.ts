@@ -14,6 +14,7 @@ export const loginBoxWrapper = {
     'backgroundColor': '#ffffff',
     'border': 'solid 0.036rem #000',
     'borderRadius': '1rem',
+    'gap': '10px',
 }
 
 export const headingOneTitle = {

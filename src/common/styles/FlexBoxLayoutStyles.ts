@@ -49,17 +49,17 @@ export const flexAlignJustifyEnd = {
 
 export const flexRow = {
     ...flex,
-    'flexDirection': 'row',
+    'flex-direction': 'row',
 };
 
 export const flexRowReverse = {
     ...flex,
-    'flexDirection': 'row-reverse',
+    'flex-direction': 'row-reverse',
 };
 
 export const flexColumn = {
     ...flex,
-    'flexDirection': 'column',
+    'flex-direction': 'column',
 };
 
 export const flexColumnReverse = {
