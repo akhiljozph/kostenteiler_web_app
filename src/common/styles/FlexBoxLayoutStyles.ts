@@ -201,4 +201,4 @@ export const flexAlignContentSpaceEvenly = {
 export const flexJustifyAlignContentStart = {
     ...flexJustifyStart,
     ...flexAlignContentStart,
-}
+};
