@@ -22,7 +22,11 @@ export const headingOneTitle = {
     'text-transform': 'capitalize',
 };
 
-export const loginLabel = {
+export const loginLbl = {
     'height': 'auto',
     'text-transform': 'capitalize',
 };
+
+export const loginBtn = {
+    'padding': '0.5rem',
+}
