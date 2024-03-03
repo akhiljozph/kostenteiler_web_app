@@ -20,13 +20,25 @@ export const loginBoxWrapper = {
 export const headingOneTitle = {
     ...flexAlignJustifyCenter,
     'text-transform': 'capitalize',
+    'fontFamily': 'Yanone Kaffeesatz',
+    'font-optical-sizing': 'auto',
+    'fontWeight': 500,
+    'fontStyle': 'normal',
 };
 
 export const loginLbl = {
     'height': 'auto',
     'text-transform': 'capitalize',
+    'fontFamily': 'Yanone Kaffeesatz',
+    'font-optical-sizing': 'auto',
+    'fontWeight': 500,
+    'fontStyle': 'normal',
 };
 
 export const loginBtn = {
     'padding': '0.5rem',
+    'fontFamily': 'Yanone Kaffeesatz',
+    'font-optical-sizing': 'auto',
+    'fontWeight': 500,
+    'fontStyle': 'normal',
 }
