@@ -1,3 +1,4 @@
+import { YononeKaffeesatz } from "../../common/styles/CommonStyles";
 import { flexAlignJustifyCenter, flexDirectionAlignJustifyCenterColumn } from "../../common/styles/FlexBoxLayoutStyles";
 
 export const loginContainer = {
@@ -19,26 +20,16 @@ export const loginBoxWrapper = {
 
 export const headingOneTitle = {
     ...flexAlignJustifyCenter,
+    ...YononeKaffeesatz,
     'text-transform': 'capitalize',
-    'fontFamily': 'Yanone Kaffeesatz',
-    'font-optical-sizing': 'auto',
-    'fontWeight': 500,
-    'fontStyle': 'normal',
 };
 
 export const loginLbl = {
-    'height': 'auto',
+    ...YononeKaffeesatz,
     'text-transform': 'capitalize',
-    'fontFamily': 'Yanone Kaffeesatz',
-    'font-optical-sizing': 'auto',
-    'fontWeight': 500,
-    'fontStyle': 'normal',
 };
 
 export const loginBtn = {
+    ...YononeKaffeesatz,
     'padding': '0.5rem',
-    'fontFamily': 'Yanone Kaffeesatz',
-    'font-optical-sizing': 'auto',
-    'fontWeight': 500,
-    'fontStyle': 'normal',
 }
