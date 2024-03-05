@@ -106,6 +106,30 @@ export const textAlignLastInherit = {
     'text-align-last': 'inherit',
 }
 
+export const textJustifyAuto = {
+    'text-justify': 'auto',
+};
+
+export const textJustifyInterWord = {
+    'text-justify': 'inter-word',
+};
+
+export const textJustifyInterCharacter = {
+    'text-justify': 'inter-character',
+};
+
+export const textJustifyNone = {
+    'text-justify': 'none',
+};
+
+export const textJustifyInitial = {
+    'text-justify': 'initial',
+};
+
+export const textJustifyInherit = {
+    'text-justify': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
