@@ -70,6 +70,42 @@ export const textAlignInherit = {
     'text-align': 'inherit',
 };
 
+export const textAlignLastAuto = {
+    'text-align-last': 'auto',
+};
+
+export const textAlignLastLeft = {
+    'text-align-last': 'left',
+};
+
+export const textAlignLastRight = {
+    'text-align-last': 'right',
+};
+
+export const textAlignLastCenter = {
+    'text-align-last': 'center',
+};
+
+export const textAlignLastJustify = {
+    'text-align-last': 'justify',
+};
+
+export const textAlignLastStart = {
+    'text-align-last': 'start',
+};
+
+export const textAlignLastEnd = {
+    'text-align-last': 'end',
+};
+
+export const textAlignLastInitial = {
+    'text-align-last': 'initial',
+};
+
+export const textAlignLastInherit = {
+    'text-align-last': 'inherit',
+}
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
