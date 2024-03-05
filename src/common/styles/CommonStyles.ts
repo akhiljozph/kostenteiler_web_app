@@ -46,6 +46,30 @@ export const fontWeight700 = {
     'fontWeight': 700,
 };
 
+export const textAlignCenter = {
+    'text-align': 'center',
+};
+
+export const textAlignLeft = {
+    'text-align': 'left',
+};
+
+export const textAlignRight = {
+    'text-align': 'right',
+};
+
+export const textAlignJustify = {
+    'text-align': 'justify',
+};
+
+export const textAlignInitial = {
+    'text-align': 'initial',
+};
+
+export const textAlignInherit = {
+    'text-align': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
