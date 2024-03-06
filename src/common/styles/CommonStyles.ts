@@ -130,6 +130,30 @@ export const textJustifyInherit = {
     'text-justify': 'inherit',
 };
 
+export const textTransformNone = {
+    'text-transform': 'none',
+};
+
+export const textTransformCapitalize = {
+    'text-transform': 'capitalize',
+};
+
+export const textTransformUppercase = {
+    'text-transform': 'uppercase',
+};
+
+export const textTransformLowercase = {
+    'text-transform': 'lowercase',
+};
+
+export const textTransformInitial = {
+    'text-transform': 'initial',
+};
+
+export const textTransformInherit = {
+    'text-transform': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
