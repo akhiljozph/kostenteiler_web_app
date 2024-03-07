@@ -154,6 +154,10 @@ export const textTransformInherit = {
     'text-transform': 'inherit',
 };
 
+export const fontStyleNormal = {
+    'font-style': 'normal',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
