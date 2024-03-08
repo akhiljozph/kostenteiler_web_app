@@ -158,6 +158,26 @@ export const fontStyleNormal = {
     'font-style': 'normal',
 };
 
+export const positionStatic = {
+    'position': 'static',
+};
+
+export const positionRelative = {
+    'position': 'relative',
+};
+
+export const positionFixed = {
+    'position': 'fixed',
+};
+
+export const positionAbsolute = {
+    'position': 'absolute',
+};
+
+export const positionSticky = {
+    'position': 'sticky',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
