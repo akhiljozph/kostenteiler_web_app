@@ -1,6 +1,11 @@
+import { baseGetValueByParam } from "../../services/BaseService";
 import { headingOneTitle, loginBoxWrapper, loginContainer, loginLbl, loginBtn } from "./LoginCSS";
 
 function Login() {
+
+    const createUserSession = () => {
+        baseGetValueByParam('/api/v1/user/', '6123wrs5fg7yeui89');
+    }
 
     return (
         <div style={loginContainer}>
@@ -15,7 +20,7 @@ function Login() {
                     <input type="password" />
                 </div>
                 <div>
-                    <button style={loginBtn}>Login</button>
+                    <button style={loginBtn} onClick={createUserSession}>Login</button>
                 </div>
             </div>
         </div>
