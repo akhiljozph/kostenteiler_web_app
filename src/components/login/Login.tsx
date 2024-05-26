@@ -4,7 +4,7 @@ import { headingOneTitle, loginBoxWrapper, loginContainer, loginLbl, loginBtn } 
 function Login() {
 
     const createUserSession = () => {
-        baseGetValueByParam('/api/v1/user/', '6123wrs5fg7yeui89');
+        baseGetValueByParam('/api/v1/user/', '');
     }
 
     return (
