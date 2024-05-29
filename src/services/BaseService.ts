@@ -35,3 +35,11 @@ export const basePostValueByBody = (url: string, body: any | undefined) => {
     .catch(() => { })
     .finally(() => { });
 };
+
+export const basePutValueByBody = (url: string, body: any | undefined) => {
+  axios
+    .post(baseURL + url, body)
+    .then(() => { })
+    .catch(() => { })
+    .finally(() => { });
+};
