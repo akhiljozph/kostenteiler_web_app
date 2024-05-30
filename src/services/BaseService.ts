@@ -43,3 +43,12 @@ export const basePutValueByBody = (url: string, body: any | undefined) => {
     .catch(() => { })
     .finally(() => { });
 };
+
+export const baseDeleteValueByParam = (url: string, param: string) => {
+  console.log("BaseGetValueByParam", baseURL + url + param);
+  axios
+    .delete(baseURL + url + param)
+    .then(() => {})
+    .catch(() => {})
+    .finally(() => {});
+};
