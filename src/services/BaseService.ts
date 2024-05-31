@@ -3,7 +3,6 @@ import axios from "axios";
 const baseURL: string = "http://localhost:8090";
 
 export const baseGetValueByParam = (url: string, param: string) => {
-  console.log("BaseGetValueByParam", baseURL + url + param);
   axios
     .get(baseURL + url + param)
     .then(() => {})
@@ -45,7 +44,6 @@ export const basePutValueByBody = (url: string, body: any | undefined) => {
 };
 
 export const baseDeleteValueByParam = (url: string, param: string) => {
-  console.log("BaseGetValueByParam", baseURL + url + param);
   axios
     .delete(baseURL + url + param)
     .then(() => {})
