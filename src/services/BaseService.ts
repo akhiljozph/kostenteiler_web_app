@@ -19,7 +19,6 @@ export const baseGetValueByBody = (url: string, body: any | undefined) => {
 };
 
 export const basePostValueByParam = (url: string, param: string) => {
-  console.log("BaseGetValueByParam", baseURL + url + param);
   axios
     .post(baseURL + url + param)
     .then(() => {})
