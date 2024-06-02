@@ -2,6 +2,11 @@ import axios from "axios";
 
 const baseURL: string = "http://localhost:8090";
 
+/**
+ * Common API method for 'GET' method.
+ * @param url 
+ * @param param 
+ */
 export const baseGetValueByParam = (url: string, param: string) => {
   axios
     .get(baseURL + url + param)
@@ -10,6 +15,11 @@ export const baseGetValueByParam = (url: string, param: string) => {
     .finally(() => {});
 };
 
+/**
+ * Common API method for 'GET' method.
+ * @param url 
+ * @param body 
+ */
 export const baseGetValueByBody = (url: string, body: any | undefined) => {
   axios
     .get(baseURL + url, body)
@@ -18,6 +28,11 @@ export const baseGetValueByBody = (url: string, body: any | undefined) => {
     .finally(() => { });
 };
 
+/**
+ * Common API method for 'POST' method.
+ * @param url 
+ * @param param 
+ */
 export const basePostValueByParam = (url: string, param: string) => {
   axios
     .post(baseURL + url + param)
