@@ -178,9 +178,29 @@ export const positionSticky = {
     'position': 'sticky',
 };
 
+export const textWrap = {
+    'text-wrap': 'wrap',
+};
+
+export const textWrapNoWrap = {
+    'text-wrap': 'no-wrap',
+};
+
+export const textWrapBalance = {
+    'text-wrap': 'balance',
+};
+
+export const textWrapPretty = {
+    'text-wrap': 'pretty',
+};
+
+export const textWrapStable = {
+    'text-wrap': 'stable',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
     'fontFamily': 'Yanone Kaffeesatz',
     'font-optical-sizing': 'auto',
-}
+};
