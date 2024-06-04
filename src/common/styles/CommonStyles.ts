@@ -198,6 +198,14 @@ export const textWrapStable = {
     'text-wrap': 'stable',
 };
 
+export const displayNone = {
+    'display': 'none',
+};
+
+export const visibilityHidden = {
+    'visibility': 'hidden'
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
