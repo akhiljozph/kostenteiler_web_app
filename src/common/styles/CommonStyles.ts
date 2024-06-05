@@ -242,6 +242,30 @@ export const overflowWrapInherit = {
     'overflow-wrap': 'inherit',
 };
 
+export const overflowXVisible = {
+    'overflow-x': 'visible',
+};
+
+export const overflowXHidden = {
+    'overflow-x': 'hidden',
+};
+
+export const overflowXScroll = {
+    'overflow-x': 'scroll',
+};
+
+export const overflowXAuto = {
+    'overflow-y': 'auto',
+};
+
+export const overflowXInitial = {
+    'overflow-y': 'initial',
+};
+
+export const overflowXInherit = {
+    'overflow-y': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
