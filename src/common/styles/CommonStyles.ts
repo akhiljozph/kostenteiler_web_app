@@ -206,6 +206,22 @@ export const visibilityHidden = {
     'visibility': 'hidden'
 };
 
+export const overflowVisible = {
+    'overflow': 'visible',
+};
+
+export const overflowHidden = {
+    'overflow': 'hidden',
+};
+
+export const overflowScroll = {
+    'overflow': 'scroll',
+};
+
+export const overflowAuto = {
+    'overflow': 'auto',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
