@@ -222,6 +222,26 @@ export const overflowAuto = {
     'overflow': 'auto',
 };
 
+export const overflowWrapNormal = {
+    'overflow-wrap': 'normal',
+};
+
+export const overflowWrapAnywhere = {
+    'overflow-wrap': 'anywhere',
+};
+
+export const overflowWrapBreakWord = {
+    'overflow-wrap': 'break-word',
+};
+
+export const overflowWrapInitial = {
+    'overflow-wrap': 'initial',
+};
+
+export const overflowWrapInherit = {
+    'overflow-wrap': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
