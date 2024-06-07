@@ -334,6 +334,22 @@ export const writingModeVerticalLR = {
     'writing-mode': 'vertical-lr',
 };
 
+export const transformStyleFlat = {
+    'transform-style': 'flat',
+};
+
+export const transformStylePreserve3D = {
+    'transform-style': 'preserve-3d'
+};
+
+export const transformStyleInitial = {
+    'transform-style': 'initial',
+};
+
+export const transformStyleInherit = {
+    'transform-style': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
