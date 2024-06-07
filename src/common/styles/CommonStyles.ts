@@ -306,6 +306,18 @@ export const wordWrapInherit = {
     'word-wrap': 'inherit',
 };
 
+export const writingModeHorizontalTB = {
+    'writing-mode': 'horizontal-tb',
+};
+
+export const writingModeVerticalRL = {
+    'writing-mode': 'vertical-rl',
+};
+
+export const writingModeVerticalLR = {
+    'writing-mode': 'vertical-lr',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
