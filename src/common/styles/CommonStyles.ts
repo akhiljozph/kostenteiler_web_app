@@ -290,6 +290,22 @@ export const overflowYInherit = {
     'overflow-y': 'inherit',
 };
 
+export const wordWrapNormal = {
+    'word-wrap': 'normal',
+};
+
+export const wordWrapBreakWord = {
+    'word-wrap': 'break-word',
+};
+
+export const wordWrapInitial = {
+    'word-wrap': 'initial',
+};
+
+export const wordWrapInherit = {
+    'word-wrap': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
