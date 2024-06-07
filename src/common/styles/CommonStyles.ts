@@ -206,6 +206,22 @@ export const visibilityHidden = {
     'visibility': 'hidden'
 };
 
+export const visibilityVisible = {
+    'visibility': 'visible'
+};
+
+export const visibilityCollapse = {
+    'visibility': 'collapse'
+};
+
+export const visibilityInitial = {
+    'visibility': 'initial'
+};
+
+export const visibilityInherit = {
+    'visibility': 'inherit'
+};
+
 export const overflowVisible = {
     'overflow': 'visible',
 };
