@@ -350,6 +350,26 @@ export const transformStyleInherit = {
     'transform-style': 'inherit',
 };
 
+export const objectFitFill = {
+    'object-fit': 'fill',
+};
+
+export const objectFitContain = {
+    'object-fit': 'contain',
+};
+
+export const objectFitCover = {
+    'object-fit': 'cover',
+};
+
+export const objectFitNone = {
+    'object-fit': 'none',
+};
+
+export const objectFitScaleDown = {
+    'object-fit': 'scale-down',
+};
+
 export const YononeKaffeesatz = {
     ...normalFontStyle,
     ...fontWeight500,
