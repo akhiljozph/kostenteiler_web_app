@@ -175,23 +175,23 @@ export const positionSticky = {
 };
 
 export const textWrap = {
-    'text-wrap': 'wrap',
+    'textWrap': 'wrap',
 };
 
 export const textWrapNoWrap = {
-    'text-wrap': 'no-wrap',
+    'textWrap': 'no-wrap',
 };
 
 export const textWrapBalance = {
-    'text-wrap': 'balance',
+    'textWrap': 'balance',
 };
 
 export const textWrapPretty = {
-    'text-wrap': 'pretty',
+    'textWrap': 'pretty',
 };
 
 export const textWrapStable = {
-    'text-wrap': 'stable',
+    'textWrap': 'stable',
 };
 
 export const displayNone = {
@@ -235,23 +235,23 @@ export const overflowAuto = {
 };
 
 export const overflowWrapNormal = {
-    'overflow-wrap': 'normal',
+    'overflowWrap': 'normal',
 };
 
 export const overflowWrapAnywhere = {
-    'overflow-wrap': 'anywhere',
+    'overflowWrap': 'anywhere',
 };
 
 export const overflowWrapBreakWord = {
-    'overflow-wrap': 'break-word',
+    'overflowWrap': 'break-word',
 };
 
 export const overflowWrapInitial = {
-    'overflow-wrap': 'initial',
+    'overflowWrap': 'initial',
 };
 
 export const overflowWrapInherit = {
-    'overflow-wrap': 'inherit',
+    'overflowWrap': 'inherit',
 };
 
 export const overflowXVisible = {
