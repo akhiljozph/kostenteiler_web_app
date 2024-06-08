@@ -406,6 +406,46 @@ export const outlineStyleHidden = {
     'outlineStyle': 'hidden',
 };
 
+export const  borderStyleDotted = {
+    'borderStyle': 'dotted',
+};
+
+export const borderStyleDashed = {
+    'borderStyle': 'dashed',
+};
+
+export const borderStyleSolid = {
+    'borderStyle': 'solid',
+};
+
+export const borderStyleDouble = {
+    'borderStyle': 'double',
+};
+
+export const borderStyleGroove = {
+    'borderStyle': 'groove',
+};
+
+export const borderStyleRidge = {
+    'borderStyle': 'ridge',
+};
+
+export const borderStyleInset = {
+    'borderStyle': 'inset',
+};
+
+export const borderStyleOutset = {
+    'borderStyle': 'outset',
+};
+
+export const borderStyleNone = {
+    'borderStyle': 'none',
+};
+
+export const borderStyleHidden = {
+    'borderStyle': 'hidden',
+};
+
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
     ...fontWeight500,
