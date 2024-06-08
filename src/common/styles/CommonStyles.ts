@@ -366,8 +366,48 @@ export const objectFitScaleDown = {
     'object-fit': 'scale-down',
 };
 
+export const outlineStyleDotted = {
+    'outlineStyle': 'dotted',
+};
+
+export const outlineStyleDashed = {
+    'outlineStyle': 'dashed',
+};
+
+export const outlineStyleSolid = {
+    'outlineStyle': 'solid',
+};
+
+export const outlineStyleDouble = {
+    'outlineStyle': 'double',
+};
+
+export const outlineStyleGroove = {
+    'outlineStyle': 'groove',
+};
+
+export const outlineStyleRidge = {
+    'outlineStyle': 'ridge',
+};
+
+export const outlineStyleInset = {
+    'outlineStyle': 'inset',
+};
+
+export const outlineStyleOutset = {
+    'outlineStyle': 'outset',
+};
+
+export const outlineStyleNone = {
+    'outlineStyle': 'none',
+};
+
+export const outlineStyleHidden = {
+    'outlineStyle': 'hidden',
+};
+
 export const YononeKaffeesatz = {
-    ...normalFontStyle,
+    ...fontStyleNormal,
     ...fontWeight500,
     'fontFamily': 'Yanone Kaffeesatz',
     'font-optical-sizing': 'auto',
