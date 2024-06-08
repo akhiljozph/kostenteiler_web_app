@@ -1,20 +1,20 @@
-export const normalFontStyle = {
+export const fontStyleNormal = {
     'fontStyle': 'normal',
 };
 
-export const italicFontStyle = {
+export const fontStyleItalic = {
     'fontStyle': 'italic',
 };
 
-export const obliqueFontStyle = {
+export const fontStyleOblique = {
     'fontStyle': 'oblique',
 };
 
-export const initialFontStyle = {
+export const fontStyleInitial = {
     'fontStyle': 'initial',
 };
 
-export const inheritFontStyle = {
+export const fontStyleInherit = {
     'fontStyle': 'inherit',
 };
 
@@ -47,115 +47,111 @@ export const fontWeight700 = {
 };
 
 export const textAlignCenter = {
-    'text-align': 'center',
+    'textAlign': 'center',
 };
 
 export const textAlignLeft = {
-    'text-align': 'left',
+    'textAlign': 'left',
 };
 
 export const textAlignRight = {
-    'text-align': 'right',
+    'textAlign': 'right',
 };
 
 export const textAlignJustify = {
-    'text-align': 'justify',
+    'textAlign': 'justify',
 };
 
 export const textAlignInitial = {
-    'text-align': 'initial',
+    'textAlign': 'initial',
 };
 
 export const textAlignInherit = {
-    'text-align': 'inherit',
+    'textAlign': 'inherit',
 };
 
 export const textAlignLastAuto = {
-    'text-align-last': 'auto',
+    'textAlignLast': 'auto',
 };
 
 export const textAlignLastLeft = {
-    'text-align-last': 'left',
+    'textAlignLast': 'left',
 };
 
 export const textAlignLastRight = {
-    'text-align-last': 'right',
+    'textAlignLast': 'right',
 };
 
 export const textAlignLastCenter = {
-    'text-align-last': 'center',
+    'textAlignLast': 'center',
 };
 
 export const textAlignLastJustify = {
-    'text-align-last': 'justify',
+    'textAlignLast': 'justify',
 };
 
 export const textAlignLastStart = {
-    'text-align-last': 'start',
+    'textAlignLast': 'start',
 };
 
 export const textAlignLastEnd = {
-    'text-align-last': 'end',
+    'textAlignLast': 'end',
 };
 
 export const textAlignLastInitial = {
-    'text-align-last': 'initial',
+    'textAlignLast': 'initial',
 };
 
 export const textAlignLastInherit = {
-    'text-align-last': 'inherit',
+    'textAlignLast': 'inherit',
 }
 
 export const textJustifyAuto = {
-    'text-justify': 'auto',
+    'textJustify': 'auto',
 };
 
 export const textJustifyInterWord = {
-    'text-justify': 'inter-word',
+    'textJustify': 'inter-word',
 };
 
 export const textJustifyInterCharacter = {
-    'text-justify': 'inter-character',
+    'textJustify': 'inter-character',
 };
 
 export const textJustifyNone = {
-    'text-justify': 'none',
+    'textJustify': 'none',
 };
 
 export const textJustifyInitial = {
-    'text-justify': 'initial',
+    'textJustify': 'initial',
 };
 
 export const textJustifyInherit = {
-    'text-justify': 'inherit',
+    'textJustify': 'inherit',
 };
 
 export const textTransformNone = {
-    'text-transform': 'none',
+    'textTransform': 'none',
 };
 
 export const textTransformCapitalize = {
-    'text-transform': 'capitalize',
+    'textTransform': 'capitalize',
 };
 
 export const textTransformUppercase = {
-    'text-transform': 'uppercase',
+    'textTransform': 'uppercase',
 };
 
 export const textTransformLowercase = {
-    'text-transform': 'lowercase',
+    'textTransform': 'lowercase',
 };
 
 export const textTransformInitial = {
-    'text-transform': 'initial',
+    'textTransform': 'initial',
 };
 
 export const textTransformInherit = {
-    'text-transform': 'inherit',
-};
-
-export const fontStyleNormal = {
-    'font-style': 'normal',
+    'textTransform': 'inherit',
 };
 
 export const positionStatic = {
