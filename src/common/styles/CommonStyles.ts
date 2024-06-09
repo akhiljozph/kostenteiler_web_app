@@ -474,6 +474,71 @@ export const breakInsideInherit = {
     'breakInside': 'inherit',
 };
 
+export const breakBeforeAuto = {
+    'breakBefore': 'auto',
+};
+
+export const breakBeforeAll = {
+    'breakBefore': 'all',
+};
+
+export const breakBeforeAlways = {
+    'breakBefore': 'always',
+};
+
+export const breakBeforeAvoid = {
+    'breakBefore': 'avoid',
+};
+
+export const breakBeforeAvoidColumn = {
+    'breakBefore': 'column',
+};
+
+export const breakBeforeAvoidPage = {
+    'breakBefore': 'avoid-page',
+};
+
+export const breakBeforeAvoidRegion = {
+    'breakBefore': 'avoid-region',
+};
+
+export const breakBeforeColumn = {
+    'breakBefore': 'column',
+};
+
+export const breakBeforeLeft = {
+    'breakBefore': 'left',
+};
+
+export const breakBeforePage = {
+    'breakBefore': 'page',
+};
+
+export const breakBeforeRecto = {
+    'breakBefore': 'recto',
+};
+
+export const breakBeforeRegion = {
+    'breakBefore': 'region',
+};
+
+export const breakBeforeRight = {
+    'breakBefore': 'right',
+};
+
+export const breakBeforeVerso = {
+    'breakBefore': 'verso',
+};
+
+export const breakBeforeInitial = {
+    'breakBefore': 'initial',
+};
+
+export const breakBeforeInherit = {
+    'breakBefore': 'inherit',
+};
+
+
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
     ...fontWeight500,
