@@ -446,6 +446,34 @@ export const borderStyleHidden = {
     'borderStyle': 'hidden',
 };
 
+export const breakInsideAuto = {
+    'breakInside': 'auto',
+};
+
+export const breakInsideAvoid = {
+    'breakInside': 'avoid',
+};
+
+export const breakInsideAvoidColumn = {
+    'breakInside': 'avoid-column',
+};
+
+export const breakInsideAvoidPage = {
+    'breakInside': 'avoid-page',
+};
+
+export const breakInsideAvoidRegion = {
+    'breakInside': 'avoid-region',
+};
+
+export const breakInsideInitial = {
+    'breakInside': 'initial',
+};
+
+export const breakInsideInherit = {
+    'breakInside': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
     ...fontWeight500,
