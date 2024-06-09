@@ -602,6 +602,21 @@ export const breakAfterInherit = {
     'breakAfter': 'inherit',
 };
 
+export const captionSideTop = {
+    'captionSide': 'top',
+};
+
+export const captionSideBottom = {
+    'captionSide': 'bottom',
+};
+
+export const captionSideInitial = {
+    'captionSide': 'initial',
+};
+
+export const captionSideInherit = {
+    'captionSide': 'inherit',
+};
 
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
