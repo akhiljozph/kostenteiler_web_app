@@ -670,6 +670,38 @@ export const userSelectAll = {
     'user-select': 'all',
 };
 
+export const unicodeBidiNormal = {
+    'unicodeBidi': 'normal',
+};
+
+export const unicodeBidiEmbed = {
+    'unicodeBidi': 'embed',
+};
+
+export const unicodeBidiOverride = {
+    'unicodeBidi': 'override'
+};
+
+export const unicodeBidiIsolate = {
+    'unicodeBidi': 'isolate',
+};
+
+export const unicodeBidiIsolateOverride = {
+    'unicodeBidi': 'isolate-override',
+};
+
+export const unicodeBidiPlainText = {
+    'unicodeBidi': 'plain-text',
+};
+
+export const unicodeBidiInitial = {
+    'unicodeBidi': 'initial',
+};
+
+export const unicodeBidiInherit = {
+    'unicodeBidi': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
     ...fontWeight500,
