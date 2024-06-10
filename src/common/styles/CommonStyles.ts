@@ -702,6 +702,22 @@ export const unicodeBidiInherit = {
     'unicodeBidi': 'inherit',
 };
 
+export const directionLtr = {
+    'direction': 'ltr',
+};
+
+export const directionRtl = {
+    'direction': 'rtl',
+};
+
+export const directionInitial = {
+    'direction': 'initial',
+};
+
+export const directionInherit = {
+    'direction': 'inherit',
+};
+
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
     ...fontWeight500,
