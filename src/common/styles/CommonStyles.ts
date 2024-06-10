@@ -646,6 +646,30 @@ export const whiteSpaceInherit = {
     'whiteSpace': 'inherit'
 };
 
+export const userSelectAuto = {
+    '--webkit-user-select': 'auto',
+    '-ms-user-select': 'auto',
+    'user-select': 'auto',
+};
+
+export const userSelectNone = {
+    '--webkit-user-select': 'none',
+    '-ms-user-select': 'none',
+    'user-select': 'none',
+};
+
+export const userSelectText = {
+    '--webkit-user-select': 'text',
+    '-ms-user-select': 'text',
+    'user-select': 'text',
+};
+
+export const userSelectAll = {
+    '--webkit-user-select': 'all',
+    '-ms-user-select': 'all',
+    'user-select': 'all',
+};
+
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
     ...fontWeight500,
