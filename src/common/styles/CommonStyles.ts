@@ -618,6 +618,34 @@ export const captionSideInherit = {
     'captionSide': 'inherit',
 };
 
+export const whiteSpaceNormal = {
+    'whiteSpace': 'normal',
+};
+
+export const whiteSpaceNoWrap = {
+    'whiteSpace': 'no-wrap',
+};
+
+export const whiteSpacePre = {
+    'whiteSpace': 'pre',
+};
+
+export const whiteSpacePreLine = {
+    'whiteSpace': 'pre-line',
+};
+
+export const whiteSpacePreWrap = {
+    'whiteSpace': 'pre-wrap',
+};
+
+export const whiteSpaceInitial = {
+    'whiteSpace': 'initial',
+};
+
+export const whiteSpaceInherit = {
+    'whiteSpace': 'inherit'
+};
+
 export const YononeKaffeesatz = {
     ...fontStyleNormal,
     ...fontWeight500,
