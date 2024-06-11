@@ -1,33 +1,33 @@
 /**
- * Browser displays a normal font style and this is default.
+ * * Browser displays a normal font style and this is default.
  */
 export const fontStyleNormal = {
     'fontStyle': 'normal',
 };
 
 /**
- * Browser displays an italic font style.
+ * * Browser displays an italic font style.
  */
 export const fontStyleItalic = {
     'fontStyle': 'italic',
 };
 
 /**
- * Browser displays an oblique font style.
+ * * Browser displays an oblique font style.
  */
 export const fontStyleOblique = {
     'fontStyle': 'oblique',
 };
 
 /**
- * Sets this property to its default value.
+ * * Sets this property to its default value.
  */
 export const fontStyleInitial = {
     'fontStyle': 'initial',
 };
 
 /**
- * Inherits this property from its parent element.
+ * * Inherits this property from its parent element.
  */
 export const fontStyleInherit = {
     'fontStyle': 'inherit',
