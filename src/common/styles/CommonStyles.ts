@@ -1,17 +1,23 @@
 /**
- * 
+ * * Default value. The browser determines whether font kerning should be applied or not.
  */
-export const fontKerningAuto = {};
+export const fontKerningAuto = {
+    'font-kerning': 'auto',
+};
 
 /**
- * 
+ * * Specifies that font kerning is applied.
  */
-export const fontKerningNormal = {};
+export const fontKerningNormal = {
+    'font-kerning': 'normal',
+};
 
 /**
- * 
+ * * Specifies that font kerning is not applied.
  */
-export const fontKerningNone = {};
+export const fontKerningNone = {
+    'font-kerning': 'none',
+};
 
 /**
  * * Makes the text as narrow as it gets.
