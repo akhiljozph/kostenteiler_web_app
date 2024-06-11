@@ -1,57 +1,94 @@
 /**
+ * 
+ */
+export const fontKerningAuto = {};
+
+/**
+ * 
+ */
+export const fontKerningNormal = {};
+
+/**
+ * 
+ */
+export const fontKerningNone = {};
+
+/**
  * * Makes the text as narrow as it gets.
  */
-export const fontStretchUltraCondensed = {};
+export const fontStretchUltraCondensed = {
+    'font-stretch': 'ultra-condensed',
+};
 
 /**
  * * Makes the text narrower then condensed, but not as narrow as ultra-condensed.
  */
-export const fontStretchExtraCondensed = {};
+export const fontStretchExtraCondensed = {
+    'font-stretch': 'extra-condensed',
+};
 
 /**
  * * Makes the text narrower than semi-condensed, but not as narrow as extra-condensed.
  */
-export const fontStretchCondensed = {};
+export const fontStretchCondensed = {
+    'font-stretch': 'condensed',
+};
 
 /**
  * * Makes the text narrower than normal, but not as narrow as condensed.
  */
-export const fontStretchSemiCondensed = {};
+export const fontStretchSemiCondensed = {
+    'font-stretch': 'semi-condensed',
+};
 
 /**
  * * Default value. No font stretching.
  */
-export const fontStretchNormal = {};
+export const fontStretchNormal = {
+    'font-stretch': 'normal',
+};
 
 /**
  * * Makes the text wider than normal, but not as wide as expanded.
  */
-export const fontStretchSemiExpanded = {};
+export const fontStretchSemiExpanded = {
+    'font-stretch': 'semi-expanded',
+};
 
 /**
  * * Makes the text wider than semi-expanded, but not as wide as extra-expanded.
  */
-export const fontStretchExpanded = {};
+export const fontStretchExpanded = {
+    'font-stretch': 'expanded',
+};
 
 /**
  * * Makes the text wider than expanded, but not as wide as ultra-expanded.
  */
-export const fontStretchExtraExpanded = {};
+export const fontStretchExtraExpanded = {
+    'font-stretch': 'extra-expanded',
+};
 
 /**
  * * Makes the text as wide as it gets.
  */
-export const fontStretchUltraExpanded = {};
+export const fontStretchUltraExpanded = {
+    'font-stretch': 'ultra-expanded',
+};
 
 /**
  * * Sets this property to its default value.
  */
-export const fontStretchInitial = {};
+export const fontStretchInitial = {
+    'font-stretch': 'initial',
+};
 
 /**
  * * Inherits this property from its parent element.
  */
-export const fontStretchInherit = {};
+export const fontStretchInherit = {
+    'font-stretch': 'inherit',
+};
 
 /**
  * * Browser displays a normal font style and this is default.
