@@ -1,4 +1,59 @@
 /**
+ * * Makes the text as narrow as it gets.
+ */
+export const fontStretchUltraCondensed = {};
+
+/**
+ * * Makes the text narrower then condensed, but not as narrow as ultra-condensed.
+ */
+export const fontStretchExtraCondensed = {};
+
+/**
+ * * Makes the text narrower than semi-condensed, but not as narrow as extra-condensed.
+ */
+export const fontStretchCondensed = {};
+
+/**
+ * * Makes the text narrower than normal, but not as narrow as condensed.
+ */
+export const fontStretchSemiCondensed = {};
+
+/**
+ * * Default value. No font stretching.
+ */
+export const fontStretchNormal = {};
+
+/**
+ * * Makes the text wider than normal, but not as wide as expanded.
+ */
+export const fontStretchSemiExpanded = {};
+
+/**
+ * * Makes the text wider than semi-expanded, but not as wide as extra-expanded.
+ */
+export const fontStretchExpanded = {};
+
+/**
+ * * Makes the text wider than expanded, but not as wide as ultra-expanded.
+ */
+export const fontStretchExtraExpanded = {};
+
+/**
+ * * Makes the text as wide as it gets.
+ */
+export const fontStretchUltraExpanded = {};
+
+/**
+ * * Sets this property to its default value.
+ */
+export const fontStretchInitial = {};
+
+/**
+ * * Inherits this property from its parent element.
+ */
+export const fontStretchInherit = {};
+
+/**
  * * Browser displays a normal font style and this is default.
  */
 export const fontStyleNormal = {
