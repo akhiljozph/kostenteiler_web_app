@@ -131,30 +131,81 @@ export const fontStyleInherit = {
     'fontStyle': 'inherit',
 };
 
+/**
+ * * Defines normal characters. This is default.
+ */
+export const fontWeightNormal = {};
+
+/**
+ * * Defines thick characters.
+ */
+export const fontWeightBold = {};
+
+/**
+ * * Defines thick characters.
+ */
+export const fontWeightBolder = {};
+
+/**
+ * * Defines lighter characters.
+ */
+export const fontWeightLighter = {};
+
+/**
+ * * Sets this property to its default value.
+ */
+export const fontWeightInitial = {};
+
+/**
+ * * Inherits this property from its parent element.
+ */
+export const fontWeightInherit = {};
+
+/**
+ * * Define from thin to thick characters.
+ */
 export const fontWeight100 = {
     'fontWeight': 100,
 };
 
+/**
+ * * Define from thin to thick characters.
+ */
 export const fontWeight200 = {
     'fontWeight': 200,
 };
 
+/**
+ * * Define from thin to thick characters.
+ */
 export const fontWeight300 = {
     'fontWeight': 300,
 };
 
+/**
+ * * Define from thin to thick characters. 400 is the same as normal.
+ */
 export const fontWeight400 = {
     'fontWeight': 400,
 };
 
+/**
+ * * Defines from thin to thick characters.
+ */
 export const fontWeight500 = {
     'fontWeight': 500,
 };
 
+/**
+ * * Defines from thin to thick characters.
+ */
 export const fontWeight600 = {
     'fontWeight': 600,
 };
 
+/**
+ * * Defines from thin to thick characters. 700 is the same as bold.
+ */
 export const fontWeight700 = {
     'fontWeight': 700,
 };
