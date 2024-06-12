@@ -202,3 +202,43 @@ export const flexJustifyAlignContentStart = {
     ...flexJustifyStart,
     ...flexAlignContentStart,
 };
+
+export const flexAlignSelfAuto = {
+    ...flex,
+    'alignSelf': 'auto',
+};
+
+export const flexAlignSelfStretch = {
+    ...flex,
+    'alignSelf': 'stretch',
+};
+
+export const flexAlignSelfCenter = {
+    ...flex,
+    'alignSelf': 'center',
+};
+
+export const flexAlignSelfStart = {
+    ...flex,
+    'alignSelf': 'start',
+};
+
+export const flexAlignSelfEnd = {
+    ...flex,
+    'alignSelf': 'end',
+};
+
+export const flexAlignSelfBaseline = {
+    ...flex,
+    'alignSelf': 'baseline',
+};
+
+export const flexAlignSelfInitial = {
+    ...flex,
+    'alignSelf': 'initial',
+};
+
+export const flexAlignSelfInherit = {
+    ...flex,
+    'alignSelf': 'inherit',
+};
