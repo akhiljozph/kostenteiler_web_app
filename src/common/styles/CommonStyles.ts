@@ -20,6 +20,38 @@ export const allUnset = {
 };
 
 /**
+ * * Default value. The backside is visible.
+ */
+export const backfaceVisibilityVisible = {
+    '-webkit-backface-visibility': 'visible',
+    'backfaceVisibility': 'visible',
+};
+
+/**
+ * * The backside is not visible.
+ */
+export const backfaceVisibilityHidden = {
+    '-webkit-backface-visibility': 'hidden',
+    'backfaceVisibility': 'hidden',
+};
+
+/**
+ * * Sets this property to its default value.
+ */
+export const backfaceVisibilityInitial = {
+    '-webkit-backface-visibility': 'initial',
+    'backfaceVisibility': 'initial',
+};
+
+/**
+ * * Inherit this property from its parent element.
+ */
+export const backfaceVisibilityInherit = {
+    '-webkit-backface-visibility': 'inherit',
+    'backfaceVisibility': 'inherit',
+};
+
+/**
  * * Specifies a dotted border.
  */
 export const  borderStyleDotted = {
