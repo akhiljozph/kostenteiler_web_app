@@ -20,6 +20,76 @@ export const allUnset = {
 };
 
 /**
+ * * Specifies a dotted border.
+ */
+export const  borderStyleDotted = {
+    'borderStyle': 'dotted',
+};
+
+/**
+ * * Specifies a dashed border.
+ */
+export const borderStyleDashed = {
+    'borderStyle': 'dashed',
+};
+
+/**
+ * * Specifies a solid border.
+ */
+export const borderStyleSolid = {
+    'borderStyle': 'solid',
+};
+
+/**
+ * * Specifies a double border.
+ */
+export const borderStyleDouble = {
+    'borderStyle': 'double',
+};
+
+/**
+ * * Specifies a 3D grooved border. The effect depends on the border-color value.
+ */
+export const borderStyleGroove = {
+    'borderStyle': 'groove',
+};
+
+/**
+ * * Specifies a 3D ridged border. The effect depends on the border color value.
+ */
+export const borderStyleRidge = {
+    'borderStyle': 'ridge',
+};
+
+/**
+ * * Specifies a 3D inset border. The effect depends on the border color value.
+ */
+export const borderStyleInset = {
+    'borderStyle': 'inset',
+};
+
+/**
+ * * Specifies a 3D outset border. The effect depends on the border color value.
+ */
+export const borderStyleOutset = {
+    'borderStyle': 'outset',
+};
+
+/**
+ * * Default value. Specifies no border.
+ */
+export const borderStyleNone = {
+    'borderStyle': 'none',
+};
+
+/**
+ * * The same as "none", expect in border conflict resolution for table elements.
+ */
+export const borderStyleHidden = {
+    'borderStyle': 'hidden',
+};
+
+/**
  * * Default value. The browser determines whether font kerning should be applied or not.
  */
 export const fontKerningAuto = {
@@ -601,46 +671,6 @@ export const outlineStyleNone = {
 
 export const outlineStyleHidden = {
     'outlineStyle': 'hidden',
-};
-
-export const  borderStyleDotted = {
-    'borderStyle': 'dotted',
-};
-
-export const borderStyleDashed = {
-    'borderStyle': 'dashed',
-};
-
-export const borderStyleSolid = {
-    'borderStyle': 'solid',
-};
-
-export const borderStyleDouble = {
-    'borderStyle': 'double',
-};
-
-export const borderStyleGroove = {
-    'borderStyle': 'groove',
-};
-
-export const borderStyleRidge = {
-    'borderStyle': 'ridge',
-};
-
-export const borderStyleInset = {
-    'borderStyle': 'inset',
-};
-
-export const borderStyleOutset = {
-    'borderStyle': 'outset',
-};
-
-export const borderStyleNone = {
-    'borderStyle': 'none',
-};
-
-export const borderStyleHidden = {
-    'borderStyle': 'hidden',
 };
 
 export const breakInsideAuto = {
