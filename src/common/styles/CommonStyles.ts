@@ -52,6 +52,41 @@ export const backfaceVisibilityInherit = {
 };
 
 /**
+ * * The background image will scroll with the page. This is default.
+ */
+export const backgroundAttachmentScroll = {
+    'backgroundAttachment': 'scroll',
+};
+
+/**
+ * * The background image will not scroll with the page.
+ */
+export const backgroundAttachmentFixed = {
+    'backgroundAttachment': 'fixed',
+};
+
+/**
+ * * The background image will scroll with the element's contents.
+ */
+export const backgroundAttachmentLocal = {
+    'backgroundAttachment': 'local',
+};
+
+/**
+ * * Sets this property to its default value.
+ */
+export const backgroundAttachmentInitial = {
+    'backgroundAttachment': 'initial',
+};
+
+/**
+ * * Inherits this property from its parent element.
+ */
+export const backgroundAttachmentInherit = {
+    'backgroundAttachment': 'inherit',
+};
+
+/**
  * * Specifies a dotted border.
  */
 export const  borderStyleDotted = {
