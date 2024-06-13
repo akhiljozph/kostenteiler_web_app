@@ -1,4 +1,25 @@
 /**
+ * * Changes all the properties applied to the element or the element's parent to the initial value.
+ */
+export const allInitial = {
+    'all': 'initial',
+};
+
+/**
+ * * Changes all the properties applied to the element or the element's parent to their parent value.
+ */
+export const allInherit = {
+    'all': 'inherit',
+};
+
+/**
+ * * Changes all the properties applied to the element or the element's parent to their parent value if they are inheritable or to their initial value if they are not.
+ */
+export const allUnset = {
+    'all': 'unset',
+};
+
+/**
  * * Default value. The browser determines whether font kerning should be applied or not.
  */
 export const fontKerningAuto = {
