@@ -192,6 +192,41 @@ export const backgroundClipInherit = {
 };
 
 /**
+ * * Default value. The background image starts from the upper left corner of the padding edge.
+ */
+export const backgroundOriginPaddingBox = {
+    'backgroundOrigin': 'padding-box',
+};
+
+/**
+ * * The background image starts from the upper left corner of the border.
+ */
+export const backgroundOriginBorderBox = {
+    'backgroundOrigin': 'border-box',
+};
+
+/**
+ * * The background image starts from the upper left corner of the content.
+ */
+export const backgroundOriginContentBox = {
+    'backgroundOrigin': 'content-box',
+};
+
+/**
+ * * Sets this property to its default value.
+ */
+export const backgroundOriginInitial = {
+    'backgroundOrigin': 'initial',
+};
+
+/**
+ * * Inherits this property from its parent.
+ */
+export const backgroundOriginInherit = {
+    'backgroundOrigin': 'inherit',
+};
+
+/**
  * * Specifies a dotted border.
  */
 export const  borderStyleDotted = {
