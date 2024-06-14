@@ -157,6 +157,41 @@ export const backgroundBlendModeLuminosity = {
 };
 
 /**
+ * * Default value. The background extends behind the border.
+ */
+export const backgroundClipBorderBox = {
+    'backgroundClip': 'border-box',
+};
+
+/**
+ * * The background extends to the inside edge of the border.
+ */
+export const backgroundClipPaddingBox = {
+    'backgroundClip': 'padding-box',
+};
+
+/**
+ * * The background extends to the edge of the content box.
+ */
+export const backgroundClipContentBox = {
+    'backgroundClip': 'content-box',
+};
+
+/**
+ * * Sets this property to its default value.
+ */
+export const backgroundClipInitial = {
+    'backgroundClip': 'initial',
+};
+
+/**
+ * * Inherits this property from its parent element.
+ */
+export const backgroundClipInherit = {
+    'backgroundClip': 'inherit',
+};
+
+/**
  * * Specifies a dotted border.
  */
 export const  borderStyleDotted = {
