@@ -227,6 +227,63 @@ export const backgroundOriginInherit = {
 };
 
 /**
+ * * The background image is repeated both vertically and horizontally. The last image will be clipped if it does not fit. This is default.
+ */
+export const backgroundRepeatRepeat = {
+    'backgroundRepeat': 'repeat',
+};
+
+/**
+ * * The background image is repeated only horizontally.
+ */
+export const backgroundRepeatRepeatX = {
+    'backgroundRepeat': 'repeat-x',
+};
+
+/**
+ * * The background image is repeated only vertically.
+ */
+export const backgroundRepeatRepeatY = {
+    'backgroundRepeat': 'repeat-y',
+};
+
+/**
+ * * The background-image is not repeated. The image will only be shown once.
+ */
+export const backgroundRepeatNoRepeat = {
+    'backgroundRepeat': 'no-repeat',
+};
+
+/**
+ * * The background-image is repeated as much as possible clipping.
+ * * The first and last image is pinned to either side of the element, and whitespace is distributed evenly between the images.
+ */
+export const backgroundRepeatSpace = {
+    'backgroundRepeat': 'space',
+};
+
+/**
+ * * The background-image is repeated and squished or stretched to fill the space (no gaps).
+ */
+export const backgroundRepeatRound = {
+    'backgroundRepeat': 'round',
+};
+
+/**
+ * * Sets this property to its default value.
+ */
+export const backgroundRepeatInitial = {
+    'backgroundRepeat': 'initial',
+};
+
+/**
+ * * Inherits this property from its parent element.
+ */
+export const backgroundRepeatInherit = {
+    'backgroundRepeat': 'inherit',
+};
+
+/**
  * * Specifies a dotted border.
  */
 export const  borderStyleDotted = {
