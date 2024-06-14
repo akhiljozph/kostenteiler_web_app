@@ -87,6 +87,76 @@ export const backgroundAttachmentInherit = {
 };
 
 /**
+ * * This is default. Sets the blending mode to normal.
+ */
+export const backgroundBlendModeNormal = {
+    'backgroundBlendMode': 'normal',
+};
+
+/**
+ * * Sets the blending mode to multiply.
+ */
+export const backgroundBlendModeMultiply = {
+    'backgroundBlendMode': 'multiply',
+};
+
+/**
+ * * Sets the blending mode to screen.
+ */
+export const backgroundBlendModeScreen = {
+    'backgroundBlendMode': 'screen',
+};
+
+/**
+ * * Sets the blending mode to overlay.
+ */
+export const backgroundBlendModeOverlay = {
+    'backgroundBlendMode': 'overlay',
+};
+
+/**
+ * * Sets the blending mode darken.
+ */
+export const backgroundBlendModeDarken = {
+    'backgroundBlendMode': 'darken',
+};
+
+/**
+ * * Sets the blending mode to lighten.
+ */
+export const backgroundBlendModeLighten = {
+    'backgroundBlendMode': 'lighten',
+};
+
+/**
+ * * Sets the blending mode to color-dodge.
+ */
+export const backgroundBlendModeColorDodge = {
+    'backgroundBlendMode': 'color-dodge',
+};
+
+/**
+ * * Sets the blending mode to saturation.
+ */
+export const backgroundBlendModeSaturation = {
+    'backgroundBlendMode': 'saturation',
+};
+
+/**
+ * * Sets the blending mode to color.
+ */
+export const backgroundBlendModeColor = {
+    'backgroundBlendMode': 'color',
+};
+
+/**
+ * * Sets the blending mode to luminosity.
+ */
+export const backgroundBlendModeLuminosity = {
+    'backgroundBlendMode': 'luminosity',
+};
+
+/**
  * * Specifies a dotted border.
  */
 export const  borderStyleDotted = {
